@@ -95,8 +95,7 @@ For Each ws In Worksheets
             ws.Cells(3, 16).Value = ws.Cells(Counter, 9).Value
             ws.Range("Q3").Value = ws.Cells(Counter, 11).Value
             ws.Range("Q3").Style = "Percent"
-            ws.Range("Q3").NumberFormat = "0.00%"
-            
+            ws.Range("Q3").NumberFormat = "0.00%"           
             
         End If
         
@@ -108,13 +107,11 @@ For Each ws In Worksheets
         Counter = Counter + 1
         Total = 0
         year_open = 0
-        year_close = 0
-        
+        year_close = 0      
     
         End If
         
-    Next i
-    
+    Next i   
     
 Next ws
 
